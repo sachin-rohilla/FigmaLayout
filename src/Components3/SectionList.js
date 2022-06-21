@@ -36,9 +36,9 @@ const SectionList = () => {
           <button className="sectionList-btn">UseFull Links</button>
         </div>
         <div>
-          <p>
+          <p className="sectionList-para3">
             Can't find What you're looking for?
-            <span style={{ color: "#2D99DA" }}>Ask Us</span>
+            <span style={{ color: "#2D99DA",fontWeight:"bold"}}> Ask Us</span>
           </p>
         </div>
       </div>
