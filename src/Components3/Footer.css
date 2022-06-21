@@ -1,0 +1,26 @@
+.footer-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background: #6f359e;
+  color: white;
+  padding: 20px;
+}
+.footer-input {
+  background:#ffffff;
+  border: none;
+  border-radius: 5px;
+}
+.footer-btn {
+  padding: 10px 20px;
+}
+.footer-btn:hover {
+  background: #2d99da;
+  color: white;
+}
+@media screen and (max-width: 550px) {
+  .footer-container {
+    display: flex;
+    flex-direction: column;
+  }
+}

@@ -1,0 +1,38 @@
+.sectionListContainer {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px 10px;
+  height: 220px;
+  background-color: #778ba3;
+}
+.sectionList-para {
+  padding: 5px;
+
+  color: #fff;
+}
+.sectionList-footer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 20px;
+  flex-wrap: wrap;
+}
+.sectionList-btn {
+  color: #ef8f83;
+  border: 1px solid #ef8f83;
+}
+.sectionList-btn:hover {
+  background: #ef8f83;
+  color: #fff;
+}
+@media screen and (max-width: 550px) {
+  .sectionList-footer {
+    display: flex;
+    flex-direction: column;
+
+    line-height: 50px;
+  }
+  .sectionListContainer {
+    height: auto;
+  }
+}

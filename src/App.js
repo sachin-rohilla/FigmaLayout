@@ -1,15 +1,14 @@
-import Appointment from "./Components2/Appointment";
-import Details from "./Components2/Details";
-import Navbar from "./Components2/Navbar";
-import Section from "./Components2/Section";
-import Footer from "./Components2/Footer";
+import Appoinment from "./Components3/Appoinment";
+import Footer from "./Components3/Footer";
+import Navbar from "./Components3/Navbar";
+import SectionList from "./Components3/SectionList";
+
 function App() {
   return (
     <>
       <Navbar />
-      <Section />
-      <Appointment />
-      <Details />
+      <Appoinment />
+      <SectionList />
       <Footer />
     </>
   );
