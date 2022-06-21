@@ -1,0 +1,43 @@
+.sec-container {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  margin-right: 60px;
+  margin-top: 40px;
+}
+.sec-btn {
+  color: #6f359e;
+  background: #ffff;
+  border: 1px solid #6f359e;
+}
+.sec-para {
+  padding: 25px;
+  width: 350px;
+}
+.sec-paragraph {
+  font-size: 12px;
+}
+.sec-heading {
+  padding: 20px;
+}
+@media screen and (max-width: 550px) {
+  .sec-container {
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+    margin-right: 0;
+  }
+}
+@media screen and (max-width: 550px) {
+  .sec-para-container {
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+  }
+  .sec-para {
+    width: auto;
+    text-align: center;
+  }
+}
