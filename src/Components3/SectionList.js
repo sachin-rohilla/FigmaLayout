@@ -38,7 +38,10 @@ const SectionList = () => {
         <div>
           <p className="sectionList-para3">
             Can't find What you're looking for?
-            <span style={{ color: "#2D99DA",fontWeight:"bold"}}> Ask Us</span>
+            <span style={{ color: "#2D99DA", fontWeight: "bold" }}>
+              {" "}
+              Ask Us
+            </span>
           </p>
         </div>
       </div>

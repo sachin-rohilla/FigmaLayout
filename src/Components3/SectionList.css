@@ -4,15 +4,16 @@
   padding: 20px 10px;
   height: 200px;
   background-color: #778ba3;
-  margin-top: 40px;
+  margin: 40px 70px;
 }
 .sectionList-para {
   padding: 5px;
-font-family: Manrope;
-font-size: 12px;
+  font-family: Manrope;
+  font-size: 12px;
   color: #fff;
 }
-.sectionList-para2,.sectionList-para3{
+.sectionList-para2,
+.sectionList-para3 {
   font-family: Manrope;
 }
 .sectionList-footer {
@@ -25,7 +26,6 @@ font-size: 12px;
 .sectionList-btn {
   color: #ef8f83;
   border: 1px solid #ef8f83;
-  
 }
 .sectionList-btn:hover {
   background: #ef8f83;
