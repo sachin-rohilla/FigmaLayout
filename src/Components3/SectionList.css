@@ -40,5 +40,7 @@
   }
   .sectionListContainer {
     height: auto;
+    width: auto;
+    margin: 40px 0px;
   }
 }

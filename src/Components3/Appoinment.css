@@ -71,7 +71,6 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-
 }
 .appointment-para3,
 .appointment-para4 {
@@ -79,11 +78,9 @@
   font-family: Manrope;
   font-weight: bolder;
   padding: 5px;
-  
 }
 .appointment-para4 {
   font-size: 22px;
-  
 }
 .appointment-pay {
   display: flex;
@@ -105,11 +102,50 @@
     flex-direction: column;
     align-items: center;
   }
+  h4,
+  .details-heading,
+  .details-para {
+    font-size: 10px;
+  }
+  .home {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .img-container {
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+    text-align: center;
+  }
+  .box-shadow {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .main-heading {
+    text-align: center;
+  }
+
   .appointment-footer {
     display: flex;
     flex-direction: column;
     align-items: center;
     width: auto;
+    margin: 0;
+  }
+  .appointment-btn {
+    width: auto;
+  }
+  .appointment-pay{
+    width: auto;
+    
+  }
+  .appointment-para3,
+  .appointment-para4 {
+    font-size: 15px;
   }
 }
 
@@ -145,5 +181,11 @@
     display: flex;
     text-align: center;
     flex-direction: column;
+  }
+  .details-heading {
+    width: auto;
+  }
+  .specs-btn {
+    margin: auto;
   }
 }
