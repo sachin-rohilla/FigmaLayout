@@ -7,7 +7,7 @@
   padding: 20px;
 }
 .footer-input {
-  background:#ffffff;
+  background: #ffffff;
   border: none;
   border-radius: 5px;
   font-family: Manrope;
@@ -15,6 +15,7 @@
 .footer-btn {
   padding: 10px 20px;
   font-family: Manrope;
+  font-weight: bold;
 }
 .footer-btn:hover {
   background: #2d99da;
