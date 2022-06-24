@@ -31,6 +31,7 @@
   background: #ef8f83;
   color: #fff;
 }
+
 @media screen and (max-width: 550px) {
   .sectionList-footer {
     display: flex;
