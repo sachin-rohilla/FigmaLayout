@@ -3,6 +3,7 @@ import "./Details.css";
 
 import Data from "./Data.json";
 const Details = () => {
+  const button = "Book Now";
   return (
     <>
       <h2 className="main-heading">Select Clinic</h2>
@@ -19,14 +20,21 @@ const Details = () => {
                   <p className="para1">{item.heading}</p>
                   <p className="para2">{item.name}</p>
                   <p className="para3">{item.title}</p>
-                  <span class="fa fa-star checked"></span>
-                  <span class="fa fa-star checked"></span>
-                  <span class="fa fa-star checked"></span>
-                  <span class="fa fa-star checked"></span>
+                  <span class={item.star}></span>
+
+                  <span
+                    style={{
+                      marginTop: "10px",
+                      fontSize: "12px",
+                      color: "#58585B",
+                    }}
+                  >
+                    {item.reivew}
+                  </span>
                   <p className="para4">{item.experirence}</p>
                 </div>
                 <div>
-                  <button className="btn1">{item.button}</button>
+                  <button className="btn1">{button}</button>
                 </div>
               </div>
               <div className="main">
@@ -41,10 +49,19 @@ const Details = () => {
                   <span class="fa fa-star checked"></span>
                   <span class="fa fa-star checked"></span>
                   <span class="fa fa-star checked"></span>
+                  <span
+                    style={{
+                      marginTop: "10px",
+                      fontSize: "12px",
+                      color: "#58585B",
+                    }}
+                  >
+                    {item.reivew}
+                  </span>
                   <p className="para4">{item.experirence}</p>
                 </div>
                 <div>
-                  <button className="btn1">{item.button}</button>
+                  <button className="btn1">{button}</button>
                 </div>
               </div>
             </div>

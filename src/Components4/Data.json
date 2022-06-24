@@ -6,60 +6,74 @@
     "name": "Dr. Siddharth Singh",
     "title": "MBBS,MS,,DNB-Orth",
     "experirence": "6 Yrs+ Experience",
-    "button": "Book Now"
+    "reivew":"112 Review",
+    "star": "3"
+    
+
+
+    
   },
   {
-    "id": "1",
+    "id": "2",
     "heading": "Orthopeadic",
     "image": "https://previews.123rf.com/images/lithian/lithian1602/lithian160200034/52548478-portrait-of-an-attractive-young-female-doctor-in-white-coat-.jpg",
     "name": "Dr. Aman Joshi",
     "title": "MBBS,MS,,DNB-Orth",
     "experirence": "6 Yrs+ Experience",
-    "button": "Book Now"
+    "reivew":"100 Review",
+    "star":"4"
   },
   {
-    "id": "1",
+    "id": "3",
     "heading": "Orthopeadic",
     "image": "https://previews.123rf.com/images/lithian/lithian1602/lithian160200034/52548478-portrait-of-an-attractive-young-female-doctor-in-white-coat-.jpg",
     "name": "Dr. Rahul",
     "title": "MBBS,MS,,DNB-Orth",
     "experirence": "6 Yrs+ Experience",
-    "button": "Book Now"
+    "reivew":"120 Review",
+    "star":"3"
+
   },
   {
-    "id": "1",
+    "id": "4",
     "heading": "Orthopeadic",
     "image": "https://previews.123rf.com/images/lithian/lithian1602/lithian160200034/52548478-portrait-of-an-attractive-young-female-doctor-in-white-coat-.jpg",
     "name": "Dr. Tiwari",
     "title": "MBBS,MS,,DNB-Orth",
     "experirence": "6 Yrs+ Experience",
-    "button": "Book Now"
+    "reivew":"97 Review",
+    "star":"4"
+    
   },
   {
-    "id": "1",
+    "id": "5",
     "heading": "Orthopeadic",
     "image": "https://previews.123rf.com/images/lithian/lithian1602/lithian160200034/52548478-portrait-of-an-attractive-young-female-doctor-in-white-coat-.jpg",
     "name": "Dr. Arjun",
     "title": "MBBS,MS,,DNB-Orth",
     "experirence": "6 Yrs+ Experience",
-    "button": "Book Now"
+    "reivew":"70 Review",
+    "star":"5"
+    
   },
   {
-    "id": "1",
+    "id": "6",
     "heading": "Orthopeadic",
     "image": "https://previews.123rf.com/images/lithian/lithian1602/lithian160200034/52548478-portrait-of-an-attractive-young-female-doctor-in-white-coat-.jpg",
     "name": "Dr. Rajput",
     "title": "MBBS,MS,,DNB-Orth",
     "experirence": "6 Yrs+ Experience",
-    "button": "Book Now"
+    "reivew":"107 Review"
+   
   },
   {
-    "id": "1",
+    "id": "7",
     "heading": "Orthopeadic",
     "image": "https://previews.123rf.com/images/lithian/lithian1602/lithian160200034/52548478-portrait-of-an-attractive-young-female-doctor-in-white-coat-.jpg",
     "name": "Dr. Riya",
     "title": "MBBS,MS,,DNB-Orth",
     "experirence": "6 Yrs+ Experience",
-    "button": "Book Now"
+    "review":"117 Review"
+    
   }
 ]
