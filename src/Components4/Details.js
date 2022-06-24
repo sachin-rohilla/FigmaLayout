@@ -19,6 +19,10 @@ const Details = () => {
                   <p className="para1">{item.heading}</p>
                   <p className="para2">{item.name}</p>
                   <p className="para3">{item.title}</p>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
                   <p className="para4">{item.experirence}</p>
                 </div>
                 <div>
@@ -33,6 +37,10 @@ const Details = () => {
                   <p className="para1">{item.heading}</p>
                   <p className="para2">{item.name}</p>
                   <p className="para3">{item.title}</p>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
                   <p className="para4">{item.experirence}</p>
                 </div>
                 <div>
