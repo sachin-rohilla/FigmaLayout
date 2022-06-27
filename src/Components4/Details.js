@@ -5,6 +5,7 @@ import { useState } from "react";
 const Details = () => {
   const button = "Book Now";
   const [filter, setFiler] = useState("");
+
   const searchContent = (e) => {
     setFiler(e.target.value);
   };
@@ -37,15 +38,19 @@ const Details = () => {
               <div className="details-container" key={item.id}>
                 <div className="main">
                   <div>
-                    <img src={item.image} width="100px" alt="doctor" />
+                    <img src={item.image} width="109px" alt="doctor" />
                   </div>
-                  <div>
+                  <div className="details-para">
                     <p className="para1">{item.heading}</p>
                     <p className="para2">{item.name}</p>
-                    {new Array(parseInt(item.star)).fill(0).map((value) => {
-                      return <span class="fa fa-star"></span>;
-                    })}
-
+                    <div>
+                      {new Array(parseInt(item.star)).fill(0).map((value) => {
+                        return <span class="fa fa-star"></span>;
+                      })}
+                      <span style={{ fontSize: "11px", marginLeft: "5px" }}>
+                        {item.reivew}
+                      </span>
+                    </div>
                     <p className="para3">{item.title}</p>
 
                     <span
@@ -57,7 +62,7 @@ const Details = () => {
                     ></span>
                     <p className="para4">{item.experirence}</p>
                   </div>
-                  <div>
+                  <div className="details-btn">
                     <button className="btn1">{button}</button>
                   </div>
                 </div>
