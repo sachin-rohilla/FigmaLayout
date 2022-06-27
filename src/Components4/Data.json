@@ -3,77 +3,101 @@
     "id": "1",
     "heading": "Orthopeadic",
     "image": "https://previews.123rf.com/images/lithian/lithian1602/lithian160200034/52548478-portrait-of-an-attractive-young-female-doctor-in-white-coat-.jpg",
-    "name": "Dr. Siddharth Singh",
+    "name": "Dr. Dinesh Kumar ",
     "title": "MBBS,MS,,DNB-Orth",
     "experirence": "6 Yrs+ Experience",
-    "reivew":"112 Review",
-    "star": "3"
-    
-
-
-    
+    "reivew": "112 Review",
+    "star": "5"
   },
   {
     "id": "2",
     "heading": "Orthopeadic",
-    "image": "https://previews.123rf.com/images/lithian/lithian1602/lithian160200034/52548478-portrait-of-an-attractive-young-female-doctor-in-white-coat-.jpg",
+    "image": "https://st.focusedcollection.com/14026668/i/1800/focused_164883806-stock-photo-portrait-of-smiling-doctor.jpg",
     "name": "Dr. Aman Joshi",
     "title": "MBBS,MS,,DNB-Orth",
-    "experirence": "6 Yrs+ Experience",
-    "reivew":"100 Review",
-    "star":"4"
+    "experirence": "4 Yrs+ Experience",
+    "reivew": "100 Review",
+    "star": "4"
   },
   {
     "id": "3",
     "heading": "Orthopeadic",
-    "image": "https://previews.123rf.com/images/lithian/lithian1602/lithian160200034/52548478-portrait-of-an-attractive-young-female-doctor-in-white-coat-.jpg",
+    "image": "https://www.kindpng.com/picc/m/101-1018785_transparent-handsome-png-indian-doctor-image-png-png.png",
     "name": "Dr. Rahul",
     "title": "MBBS,MS,,DNB-Orth",
-    "experirence": "6 Yrs+ Experience",
-    "reivew":"120 Review",
-    "star":"3"
-
+    "experirence": "5 Yrs+ Experience",
+    "reivew": "120 Review",
+    "star": "3"
   },
   {
     "id": "4",
     "heading": "Orthopeadic",
-    "image": "https://previews.123rf.com/images/lithian/lithian1602/lithian160200034/52548478-portrait-of-an-attractive-young-female-doctor-in-white-coat-.jpg",
-    "name": "Dr. Tiwari",
+    "image": "https://img.freepik.com/free-photo/beautiful-young-female-doctor-looking-camera-office_1301-7807.jpg?w=2000",
+    "name": "Dr. Sagun",
     "title": "MBBS,MS,,DNB-Orth",
-    "experirence": "6 Yrs+ Experience",
-    "reivew":"97 Review",
-    "star":"4"
-    
+    "experirence": "3 Yrs+ Experience",
+    "reivew": "97 Review",
+    "star": "2"
   },
   {
     "id": "5",
     "heading": "Orthopeadic",
-    "image": "https://previews.123rf.com/images/lithian/lithian1602/lithian160200034/52548478-portrait-of-an-attractive-young-female-doctor-in-white-coat-.jpg",
-    "name": "Dr. Arjun",
+    "image": "https://thumbs.dreamstime.com/b/doctor-woman-medical-isolated-white-background-35581032.jpg",
+    "name": "Dr. Arohi",
     "title": "MBBS,MS,,DNB-Orth",
-    "experirence": "6 Yrs+ Experience",
-    "reivew":"70 Review",
-    "star":"5"
-    
+    "experirence": "2 Yrs+ Experience",
+    "reivew": "70 Review",
+    "star": "4"
   },
   {
     "id": "6",
     "heading": "Orthopeadic",
-    "image": "https://previews.123rf.com/images/lithian/lithian1602/lithian160200034/52548478-portrait-of-an-attractive-young-female-doctor-in-white-coat-.jpg",
-    "name": "Dr. Rajput",
+    "image": "https://st.depositphotos.com/1771835/1477/i/950/depositphotos_14779771-stock-photo-portrait-of-confident-young-doctor.jpg",
+    "name": "Dr. Arnav",
     "title": "MBBS,MS,,DNB-Orth",
-    "experirence": "6 Yrs+ Experience",
-    "reivew":"107 Review"
-   
+    "experirence": "4 Yrs+ Experience",
+    "reivew": "70 Review",
+    "star": "3"
   },
   {
     "id": "7",
     "heading": "Orthopeadic",
-    "image": "https://previews.123rf.com/images/lithian/lithian1602/lithian160200034/52548478-portrait-of-an-attractive-young-female-doctor-in-white-coat-.jpg",
-    "name": "Dr. Riya",
+
+    "image": " https://images.freeimages.com/images/premium/previews/3739/37396958-friendly-doctor-smiling-giving-thumbs-up.jpg",
+    "name": "Dr. Rakesh",
     "title": "MBBS,MS,,DNB-Orth",
-    "experirence": "6 Yrs+ Experience",
-    "review":"117 Review"
-    
+    "experirence": "7 Yrs+ Experience",
+    "reivew": "70 Review",
+    "star": "5"
+  },
+  {
+    "id": "8",
+    "heading": "Orthopeadic",
+    "image": "https://previews.123rf.com/images/lightfieldstudios/lightfieldstudios1811/lightfieldstudios181124878/111511241-smiling-young-female-doctor-with-stethoscope-standing-with-arms-crossed-in-clinic.jpg",
+    "name": "Dr. Ayushi",
+    "title": "MBBS,MS,,DNB-Orth",
+    "experirence": "3 Yrs+ Experience",
+    "reivew": "70 Review",
+    "star": "2"
+  },
+  {
+    "id": "9",
+    "heading": "Orthopeadic",
+    "image": "https://thumbs.dreamstime.com/z/latin-american-doctor-woman-standing-arms-crossed-smiling-hospital-physician-ready-to-examine-patient-health-care-96526447.jpg",
+    "name": "Dr. Aisha",
+    "title": "MBBS,MS,,DNB-Orth",
+    "experirence": "5 Yrs+ Experience",
+    "reivew": "70 Review",
+    "star": "4"
+  },
+  {
+    "id": "10",
+    "heading": "Orthopeadic",
+    "image": "https://cdn.create.vista.com/api/media/medium/193012664/stock-photo-confident-male-doctor-wearing-white?token=",
+    "name": "Dr. Deepak",
+    "title": "MBBS,MS,,DNB-Orth",
+    "experirence": "7 Yrs+ Experience",
+    "reivew": "70 Review",
+    "star": "5"
   }
 ]
