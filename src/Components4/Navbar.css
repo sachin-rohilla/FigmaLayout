@@ -9,6 +9,8 @@ ul {
 .navbar {
   background-color: #fafafa;
   height: auto;
+  margin: 0 auto;
+  width: 900px;
 }
 a {
   text-decoration: none;
@@ -76,10 +78,18 @@ input {
   margin: 10px;
   text-align: center;
 }
-@media screen and (max-width: 550px) {
+@media screen and (max-width: 900px) {
+  .navbar {
+    width: auto;
+  }
+}
+@media screen and (max-width: 600px) {
   .navbar ul {
     display: flex;
     flex-direction: column;
+  }
+  ul li {
+    margin: 5px;
   }
 }
 @media screen and (max-width: 550px) {

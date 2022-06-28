@@ -19,28 +19,29 @@
   justify-content: space-between;
   align-items: center;
   margin: 30px;
+  width: 900px;
+  margin: 0 auto;
 }
 .grid {
-  margin: 10px 170px;
+  /* margin: 10px 250px; */
+  width: 900px;
+  display: flex;
+  margin: 0 auto;
 }
 .input {
   background: #ffffff;
   padding: 15px 15px;
   box-shadow: 0px 0px 11.2285px rgba(0, 0, 0, 0.06);
-  margin-left: 190px;
-  width: 1010px;
+
+  flex: 1;
   text-align: left;
 }
-.details-container {
-  display: flex;
-  justify-content: center;
-}
+
 .input-button {
   background: #2d99da;
   border: none;
   color: #fff;
   padding: 15px 25px;
-  margin-right: 200px;
 }
 .select {
   padding: 10px;
@@ -56,6 +57,8 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  width: 900px;
+  margin: 0 auto;
 }
 
 .para1,
@@ -123,7 +126,7 @@
 .mini-box {
   display: flex;
   justify-content: center;
-  margin-top: 50px;
+  margin: 20px;
 }
 .mini1 {
   width: 30px;
@@ -137,25 +140,47 @@
   border-radius: 5px;
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 550px) {
+  .main {
+    width: auto;
+  }
+}
+@media screen and (max-width: 730px) {
+  .dropdown {
+    width: auto;
+    display: flex;
+    flex-direction: column;
+  }
+}
+@media screen and (max-width: 920px) {
   .para-div {
     width: auto;
   }
-  .details-container {
+  .grid {
     width: auto;
+    /* display: flex; */
+    /* justify-content: center; */
+    margin: 10px;
   }
   .price {
     margin: 10px 5px;
   }
+
   .dropdown {
     display: flex;
-    flex-direction: column;
-    align-items: center;
+    /* flex-direction: column; */
+    width: auto;
+    margin: 20px;
+  }
+  .select {
+    margin: 10px;
   }
   .main {
-    display: flex;
-    width: auto;
+    /* display: flex; */
+    /* width: auto; */
+
     height: auto;
+    margin: 5px auto;
   }
   .btn1 {
     margin: auto;
@@ -165,13 +190,11 @@
     margin: auto;
   }
   .input-button {
-    margin: 10px;
+    /* margin: 10px; */
+    /* margin: auto; */
   }
   .input-container {
-    display: flex;
-    flex-direction: column;
-
-    align-items: center;
+    width: auto;
   }
   .main-heading {
     text-align: center;

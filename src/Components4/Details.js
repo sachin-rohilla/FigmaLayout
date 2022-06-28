@@ -102,7 +102,7 @@ const Details = () => {
       </div>
 
       <div className="grid">
-        <Grid container>
+        <Grid container alignItems="center">
           {searchData.map((item) => {
             if (state !== "" && item.state !== state) {
               return null;
@@ -122,48 +122,44 @@ const Details = () => {
             return (
               <>
                 <Grid item xs={12} sm={12} lg={6}>
-                  <div className="details-container" key={item.id}>
-                    <div className="main">
+                  <div className="main">
+                    <div>
+                      <img src={item.image} width="109px" alt="doctor" />
+                    </div>
+                    <div className="details-para">
+                      <p className="para1">{item.heading}</p>
+                      <p className="para2">{item.name}</p>
                       <div>
-                        <img src={item.image} width="109px" alt="doctor" />
+                        {new Array(parseInt(item.star)).fill(0).map((value) => {
+                          return <span class="fa fa-star"></span>;
+                        })}
+                        <span style={{ fontSize: "11px", marginLeft: "5px" }}>
+                          {item.reivew}
+                        </span>
                       </div>
-                      <div className="details-para">
-                        <p className="para1">{item.heading}</p>
-                        <p className="para2">{item.name}</p>
-                        <div>
-                          {new Array(parseInt(item.star))
-                            .fill(0)
-                            .map((value) => {
-                              return <span class="fa fa-star"></span>;
-                            })}
-                          <span style={{ fontSize: "11px", marginLeft: "5px" }}>
-                            {item.reivew}
-                          </span>
-                        </div>
-                        <p className="para3">{item.title}</p>
+                      <p className="para3">{item.title}</p>
 
-                        <span
-                          style={{
-                            marginTop: "10px",
-                            fontSize: "12px",
-                            color: "#58585B",
-                          }}
-                        ></span>
-                        <p className="para4">{item.experirence}</p>
+                      <span
+                        style={{
+                          marginTop: "10px",
+                          fontSize: "12px",
+                          color: "#58585B",
+                        }}
+                      ></span>
+                      <p className="para4">{item.experirence}</p>
+                    </div>
+                    <div className="details-btn">
+                      <div className="price">
+                        <span style={{ color: "#2D99DA" }}>
+                          {" "}
+                          <i class="fa fa-camera"></i>
+                        </span>
+                        <p style={{ marginLeft: "5px", fontWeight: "bold" }}>
+                          Price: 500
+                        </p>
                       </div>
-                      <div className="details-btn">
-                        <div className="price">
-                          <span style={{ color: "#2D99DA" }}>
-                            {" "}
-                            <i class="fa fa-camera"></i>
-                          </span>
-                          <p style={{ marginLeft: "5px", fontWeight: "bold" }}>
-                            Price: 500
-                          </p>
-                        </div>
 
-                        <button className="btn1">{button}</button>
-                      </div>
+                      <button className="btn1">{button}</button>
                     </div>
                   </div>
                 </Grid>

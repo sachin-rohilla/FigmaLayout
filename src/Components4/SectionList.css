@@ -4,7 +4,10 @@
   padding: 20px 10px;
   height: 200px;
   background-color: #778ba3;
-  margin: 40px 70px;
+  /* margin: 40px 70px;
+   */
+  width: 900px;
+  margin: 0 auto;
 }
 .sectionList-para {
   padding: 5px;
@@ -22,6 +25,8 @@
   align-items: center;
   padding: 20px;
   flex-wrap: wrap;
+  width: 900px;
+  margin: 0 auto;
 }
 .sectionList-btn {
   color: #ef8f83;
@@ -31,7 +36,16 @@
   background: #ef8f83;
   color: #fff;
 }
-
+@media screen and (max-width: 900px) {
+  .sectionListContainer {
+    width: auto;
+  }
+}
+@media screen and (max-width: 900px) {
+  .sectionList-footer {
+    width: auto;
+  }
+}
 @media screen and (max-width: 550px) {
   .sectionList-footer {
     display: flex;
