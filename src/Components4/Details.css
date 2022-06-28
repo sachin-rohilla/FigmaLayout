@@ -20,27 +20,42 @@
   align-items: center;
   margin: 30px;
 }
-.grid{
-  margin: 90px;
+.grid {
+  margin: 10px 170px;
 }
 .input {
   background: #ffffff;
   padding: 15px 15px;
   box-shadow: 0px 0px 11.2285px rgba(0, 0, 0, 0.06);
-  margin-left: 30px;
-  width: 1200px;
+  margin-left: 190px;
+  width: 1010px;
   text-align: left;
 }
-.details-container{
+.details-container {
   display: flex;
   justify-content: center;
-  
 }
 .input-button {
   background: #2d99da;
   border: none;
   color: #fff;
-  padding: 15px 35px;
+  padding: 15px 25px;
+  margin-right: 200px;
+}
+.select {
+  padding: 10px;
+  font-family: Manrope;
+  border-radius: 5px;
+  border: 1px solid #92a1b4;
+  margin: 20px;
+}
+.price {
+  display: flex;
+}
+.dropdown {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .para1,
@@ -83,7 +98,7 @@
 .btn1,
 .btn2,
 .btn3 {
-  margin-top: 70px;
+  margin-top: 50px;
   font-family: Manrope;
 }
 
@@ -105,27 +120,52 @@
 .btn2:hover {
   background: lightseagreen;
 }
+.mini-box {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+.mini1 {
+  width: 30px;
+  text-align: center;
+  padding: 5px;
+  border: 1px solid #919eab;
+  font-family: Manrope;
+  margin: 5px;
+  font-weight: bold;
+  font-size: 12px;
+  border-radius: 5px;
+}
 
-
-@media screen and (max-width: 550px) {
+@media screen and (max-width: 800px) {
   .para-div {
     width: auto;
   }
   .details-container {
     width: auto;
-    /* height: auto; */
+  }
+  .price {
+    margin: 10px 5px;
+  }
+  .dropdown {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
   .main {
     display: flex;
     width: auto;
     height: auto;
   }
-.btn1{
-  margin: auto;
-
-}
+  .btn1 {
+    margin: auto;
+  }
   .input {
     width: auto;
+    margin: auto;
+  }
+  .input-button {
+    margin: 10px;
   }
   .input-container {
     display: flex;
@@ -136,5 +176,4 @@
   .main-heading {
     text-align: center;
   }
-  
 }

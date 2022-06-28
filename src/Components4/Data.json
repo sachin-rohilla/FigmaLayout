@@ -7,7 +7,12 @@
     "title": "MBBS,MS,,DNB-Orth",
     "experirence": "6 Yrs+ Experience",
     "reivew": "112 Review",
-    "star": "3"
+    "star": "3",
+    "state":"Chennai",
+    "city":"Kollapur",
+    "specilization":"Brain",
+    "consult":"Online",
+    "availble":"Saturday"
   },
   {
     "id": "2",
@@ -17,7 +22,12 @@
     "title": "MBBS,MS,,DNB-Orth",
     "experirence": "4 Yrs+ Experience",
     "reivew": "100 Review",
-    "star": "4"
+    "star": "4",
+    "state":"Delhi",
+    "city":"Safdarjang",
+    "specilization":"Orthopeadic",
+    "consult":"Offline",
+    "availble":"Sunday"
   },
   {
     "id": "3",
@@ -27,7 +37,12 @@
     "title": "MBBS,MS,,DNB-Orth",
     "experirence": "5 Yrs+ Experience",
     "reivew": "120 Review",
-    "star": "3"
+    "star": "3",
+    "state":"Mumbai",
+    "city":"Bandra",
+    "specilization":"Liver",
+    "consult":"Online",
+    "availble":"Saturday"
   },
   {
     "id": "4",
@@ -37,7 +52,12 @@
     "title": "MBBS,MS,,DNB-Orth",
     "experirence": "3 Yrs+ Experience",
     "reivew": "97 Review",
-    "star": "3"
+    "star": "3",
+    "state":"Kolkata",
+    "city":"Ooty",
+    "specilization":"Heart",
+    "consult":"Online",
+    "availble":"Saturday"
   },
   {
     "id": "5",
@@ -47,7 +67,13 @@
     "title": "MBBS,MS,,DNB-Orth",
     "experirence": "2 Yrs+ Experience",
     "reivew": "70 Review",
-    "star": "4"
+    "star": "4",
+    "state":"Delhi",
+    "city":"Safdarjang",
+    "specilization":"Orthopeadic",
+    "consult":"Offline",
+    "availble":"Sunday"
+   
   },
   {
     "id": "6",
@@ -57,7 +83,13 @@
     "title": "MBBS,MS,,DNB-Orth",
     "experirence": "4 Yrs+ Experience",
     "reivew": "70 Review",
-    "star": "3"
+    "star": "3",
+    "state":"Kolkatta",
+    "city":"Ooty",
+    "specilization":"Heart",
+    "consult":"Online",
+    "availble":"Saturday"
+    
   },
   {
     "id": "7",
@@ -68,7 +100,11 @@
     "title": "MBBS,MS,,DNB-Orth",
     "experirence": "7 Yrs+ Experience",
     "reivew": "70 Review",
-    "star": "4"
+    "star": "4", "state":"Chennai",
+    "city":"Kollapur",
+    "specilization":"Brain",
+    "consult":"Online",
+    "availble":"Saturday"
   },
   {
     "id": "8",
@@ -78,7 +114,12 @@
     "title": "MBBS,MS,,DNB-Orth",
     "experirence": "3 Yrs+ Experience",
     "reivew": "70 Review",
-    "star": "3"
+    "star": "3",
+    "state":"Mumbai",
+    "city":"Bandra",
+    "specilization":"Liver",
+    "consult":"Online",
+    "availble":"Saturday"
   },
   {
     "id": "9",
@@ -88,7 +129,12 @@
     "title": "MBBS,MS,,DNB-Orth",
     "experirence": "5 Yrs+ Experience",
     "reivew": "70 Review",
-    "star": "4"
+    "star": "4",
+     "state":"Chennai",
+    "city":"Kollapur",
+    "specilization":"Brain",
+    "consult":"Online",
+    "availble":"Saturday"
   },
   {
     "id": "10",
@@ -98,6 +144,11 @@
     "title": "MBBS,MS,,DNB-Orth",
     "experirence": "7 Yrs+ Experience",
     "reivew": "70 Review",
-    "star": "4"
+    "star": "4",
+    "state":"Kolkata",
+    "city":"Ooty",
+    "specilization":"Heart",
+    "consult":"Online",
+    "availble":"Saturday"
   }
 ]
