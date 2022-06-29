@@ -1,22 +1,18 @@
-import Profile from "./Components4/Profile";
 
-import Details from "./Components4/Details";
-import Footer from "./Components4/Footer";
-import Navbar from "./Components4/Navbar";
-import SectionList from "./Components4/SectionList";
-
-
+import Navbar from "./Components5/Navbar";
+import Image from "./Components5/Image";
+import Section from "./Components5/Section";
+import SectionList from "./Components5/SectionList";
+import Footer from "./Components5/Footer";
 function App() {
   return (
     <>
       <Navbar />
-      <Profile />
-      
-      <Details />
-      
-      
-      <SectionList />
-      <Footer />
+      <Image/>
+      <Section/>
+      <SectionList/>
+      <Footer/>
+    
     </>
   );
 }
