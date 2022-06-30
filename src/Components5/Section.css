@@ -74,6 +74,7 @@ input {
   font-family: Manrope;
   padding: 10px 0px;
 }
+
 .box-1 {
   display: flex;
   justify-content: space-around;
@@ -148,6 +149,25 @@ input {
   .grid-box {
     margin: 0 auto;
     width: auto;
+  }
+  .box-1 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .box-para3,
+  .box-para1,
+  .box-para2,
+  .box-btn {
+    /* text-align: center; */
+    margin: 5px;
+    font-size: 17px;
+  }
+  .box-2 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 10px;
   }
 }
 @media screen and (max-width: 990px) {
