@@ -97,10 +97,8 @@ const Section = () => {
               </p>
             </div>
             <div className="box-2">
-              
               <p className="box-para3">
                 {" "}
-                
                 Weelu Solution Pvt Ltd Vindya C4,IITH Hyderabad,Gachibowli
               </p>
               <button className="box-btn">Get Directions</button>
