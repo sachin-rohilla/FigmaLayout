@@ -48,10 +48,10 @@ const Faq = () => {
           <p className="faq-para1">Frequently Asked Questions</p>
           <div>
             <ul>
-              <li style={{ color: "#EE8F83" }}>General</li>
-              <li>Homecare</li>
-              <li>Nursing</li>
-              <li>Other topics</li>
+              <li ><a href="/" style={{ color: "#EE8F83" }} className="faq-anchor">General</a></li>
+              <li><a href="/" className="faq-anchor">Homecare</a></li>
+              <li><a href="/" className="faq-anchor">Nursing</a></li>
+              <li><a href="/" className="faq-anchor">Other Topics</a></li>
             </ul>
             {/* <div className='faq-horizontal'></div> */}
           </div>

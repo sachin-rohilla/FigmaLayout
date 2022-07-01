@@ -13,7 +13,7 @@
 ul {
   display: flex;
 }
-li {
+.faq-anchor {
   margin: 0px 20px;
   font-family: Manrope;
   color: #c7c7c7;
