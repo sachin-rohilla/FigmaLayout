@@ -72,6 +72,11 @@ const RecentBlogs = () => {
               <p className="playStore">
                 <i class="fab fa-google-play"></i> Google Play
               </p>
+              <img
+                src="https://blackwater.tech/wp-content/uploads/2020/11/banner-iphone-test.png"
+                alt="medical"
+                className="iphone"
+              />
             </div>
           </div>
         </div>

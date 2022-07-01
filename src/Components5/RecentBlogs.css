@@ -62,12 +62,12 @@
   opacity: 0.2;
 }
 .recent-footer {
-  width: 1000px;
+  width: 1100px;
   /* background: lightblue; */
   margin: 0 auto;
 }
 .recent-box {
-  background-color: #f8f8f8;
+  /* background-color: #f8f8f8; */
   padding: 30px 40px;
   margin-top: 25px;
   border-radius: 5px;
@@ -103,6 +103,12 @@
   text-align: center;
   font-family: Manrope;
 }
+.iphone {
+  height: auto;
+  width: 400px;
+  margin: auto 20px;
+  background-color: #fff;
+}
 @media screen and (max-width: 1050px) {
   .recent-container {
     width: auto;
@@ -135,7 +141,7 @@
     width: auto;
   }
 }
-@media screen and (max-width: 670px) {
+@media screen and (max-width: 950px) {
   .recent-footer-para1,
   .recent-footer-para2 {
     text-align: center;
@@ -166,6 +172,38 @@
     text-align: center;
   }
 }
+/* @media screen and (max-width: 670px) {
+  .recent-footer-para1,
+  .recent-footer-para2 {
+    text-align: center;
+  }
+  .avail {
+    text-align: center;
+  }
+  .recent-input {
+    display: flex;
+    flex-direction: column;
+  }
+  .appStore,
+  .playStore,
+  .recent-btn {
+    margin: 10px;
+  }
+  .item-para1,
+  .item-para2,
+  .item-para3,
+  .item-para4 {
+    text-align: center;
+  }
+  .recent-footer-img {
+    width: 300px;
+  }
+  .recent-para1,
+  .recent-para2 {
+    text-align: center;
+  }
+} */
+
 @media screen and (max-width: 670px) {
   .recent.main {
     width: 300px;
@@ -180,5 +218,8 @@
     display: flex;
     flex-direction: column;
     width: 300px;
+  }
+  .iphone {
+    width: 350px;
   }
 }

@@ -1,7 +1,8 @@
 import React from "react";
 import "./Section.css";
-
+import Data from "./Data.json";
 const Section = () => {
+  const button = "Get Directions";
   return (
     <div className="section-container">
       <div className="form-container">
@@ -52,82 +53,43 @@ const Section = () => {
                   {" "}
                   Weelu Solution Pvt Ltd Vindya C4,IITH Hyderabad,Gachibowli
                 </p>
-                <button className="box-btn">Get Directions</button>
+                <button className="box-btn">{button}</button>
               </div>
             </div>
           </div>
         </div>
       </div>
+
       <div className="grid-container">
-        <div className="grid-1">
-          <p className="register-para">Registered Office</p>
-          <div className="grid-box">
-            <div className="box-1">
-              <p className="box-para1">
-                <i class="fa fa-phone" style={{ margin: "10px" }}></i>{" "}
-                +91-7015920486
-              </p>
-              <p className="box-para2">
-                {" "}
-                <i class="fa fa-envelope" style={{ margin: "10px" }}></i>{" "}
-                contact@weelu.com
-              </p>
-            </div>
-            <div className="box-2">
-              <p className="box-para3">
-                {" "}
-                Weelu Solution Pvt Ltd Vindya C4,Odisha
-              </p>
-              <button className="box-btn">Get Directions</button>
-            </div>
-          </div>
-        </div>
-        <div className="grid-1">
-          <p className="register-para">Corporate Office</p>
-          <div className="grid-box">
-            <div className="box-1">
-              <p className="box-para1">
-                <i class="fa fa-phone" style={{ margin: "10px" }}></i>{" "}
-                +91-7015920486
-              </p>
-              <p className="box-para2">
-                {" "}
-                <i class="fa fa-envelope" style={{ margin: "10px" }}></i>{" "}
-                contact@weelu.com
-              </p>
-            </div>
-            <div className="box-2">
-              <p className="box-para3">
-                {" "}
-                Weelu Solution Pvt Ltd Vindya C4,IITH Hyderabad,Gachibowli
-              </p>
-              <button className="box-btn">Get Directions</button>
-            </div>
-          </div>
-        </div>
-        <div className="grid-1">
-          <p className="register-para">Other Office</p>
-          <div className="grid-box">
-            <div className="box-1">
-              <p className="box-para1">
-                <i class="fa fa-phone" style={{ margin: "10px" }}></i>{" "}
-                +91-7015920486
-              </p>
-              <p className="box-para2">
-                {" "}
-                <i class="fa fa-envelope" style={{ margin: "10px" }}></i>{" "}
-                contact@weelu.com
-              </p>
-            </div>
-            <div className="box-2">
-              <p className="box-para3">
-                {" "}
-                Weelu Solution Pvt Ltd Vindya C4,IITH Hyderabad,Gachibowli
-              </p>
-              <button className="box-btn">Get Directions</button>
-            </div>
-          </div>
-        </div>
+        {Data.map((item) => {
+          return (
+            <>
+              <div className="grid-1" key={item.id}>
+                <p className="register-para">{item.heading}</p>
+                <div className="grid-box">
+                  <div className="box-1">
+                    <p className="box-para1">
+                      <i class="fa fa-phone" style={{ margin: "10px" }}></i>{" "}
+                      {item.number}
+                    </p>
+                    <p className="box-para2">
+                      {" "}
+                      <i
+                        class="fa fa-envelope"
+                        style={{ margin: "10px" }}
+                      ></i>{" "}
+                      {item.email}
+                    </p>
+                  </div>
+                  <div className="box-2">
+                    <p className="box-para3"> {item.para}</p>
+                    <button className="box-btn">{button}</button>
+                  </div>
+                </div>
+              </div>
+            </>
+          );
+        })}
       </div>
     </div>
   );

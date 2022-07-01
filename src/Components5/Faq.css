@@ -33,7 +33,7 @@ li {
   opacity: 0.4;
 }
 .general-horizontal {
-  border-bottom: 1px solid red;
+  /* border-bottom: 1px solid red; */
 }
 
 .questions-container {
@@ -51,6 +51,15 @@ li {
 .question-para2 {
   padding: 20px;
 }
+.question-btn {
+  border: none;
+  font-size: 30px;
+  color: #000;
+}
+.question-btn:hover {
+  background: none;
+  color: #116fff;
+}
 @media screen and (max-width: 1050px) {
   .faq-main {
     /* margin: 10px 30px; */
@@ -58,9 +67,11 @@ li {
     margin: 10px;
     width: auto;
   }
+
   .questions-container {
     /* margin: 0 auto; */
     /* margin: auto; */
+    
   }
 }
 @media screen and (max-width: 766px) {
@@ -77,4 +88,5 @@ li {
     text-align: center;
     margin: auto;
   }
+  
 }
