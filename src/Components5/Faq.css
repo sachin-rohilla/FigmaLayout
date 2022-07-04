@@ -14,10 +14,6 @@ ul {
   display: flex;
 }
 .faq-anchor {
-  margin: 0px 20px;
-  font-family: Manrope;
-  color: #c7c7c7;
-  font-size: 17px;
 }
 .faq-para1 {
   font-family: Manrope;
@@ -35,7 +31,25 @@ ul {
 .general-horizontal {
   /* border-bottom: 1px solid red; */
 }
-
+.faq-btn {
+  font-family: Manrope;
+  /* margin: 0px 5px; */
+  border: none;
+  color: #c7c7c7;
+  font-size: 17px;
+}
+.faq-general-btn {
+  color: #ee8f83;
+  font-family: Manrope;
+  margin: 0px 10px;
+  border: none;
+  font-size: 17px;
+}
+.faq-general-btn:hover {
+  background-color: #ee8f83;
+  border: none;
+  color: #fff;
+}
 .questions-container {
   display: flex;
   justify-content: space-between;
@@ -71,7 +85,6 @@ ul {
   .questions-container {
     /* margin: 0 auto; */
     /* margin: auto; */
-    
   }
 }
 @media screen and (max-width: 766px) {
@@ -88,5 +101,4 @@ ul {
     text-align: center;
     margin: auto;
   }
-  
 }
