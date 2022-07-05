@@ -1,22 +1,9 @@
-import Profile from "./Components4/Profile";
-
-import Details from "./Components4/Details";
-import Footer from "./Components4/Footer";
-import Navbar from "./Components4/Navbar";
-import SectionList from "./Components4/SectionList";
-
+import Stopwatch from "./Stopwatch/Stopwatch";
 
 function App() {
   return (
     <>
-      <Navbar />
-      <Profile />
-      
-      <Details />
-      
-      
-      <SectionList />
-      <Footer />
+      <Stopwatch />
     </>
   );
 }
