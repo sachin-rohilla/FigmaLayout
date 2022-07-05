@@ -26,7 +26,7 @@ const Faq = () => {
         <div className="faq-container">
           <p className="faq-para1">Frequently Asked Questions</p>
           <div>
-            {/* <ul>
+            {/* <ul>  
               <li className="faq-anchor" ><a href="/" style={{ color: "#EE8F83" }} className="faq-anchor">General</a></li>
               <li className="faq-anchor"><a href="/" className="faq-anchor" onClick={homehandler}>Homecare</a></li>
               <li className="faq-anchor"><a href="/" className="faq-anchor">Nursing</a></li>
@@ -46,7 +46,6 @@ const Faq = () => {
             </button>
           </div>
         </div>
-
         <div>{show || <General />}</div>
       </div>
     </>
